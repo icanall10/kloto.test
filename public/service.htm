@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/all.css">
+    </head>
+    <body>
+
+
+        <div class="header-block">
+            <div class="container inner">
+                <a href="/" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                <div class="contacts">
+                    <div class="item phone-address">
+                        <div class="item-inner">
+                            <div class="phone">
+                                <a href="tel:+74952111122">+7 (495) 211-11-22</a>
+                            </div>
+                            <div class="address">Москва, ул. Тверская, д. 1</div>
+                        </div>
+                    </div>
+                    <div class="item work-time">
+                        <div class="name">Время работы:</div>
+                        <div class="value">Пн-Вс: 10:00 - 22:00</div>
+                    </div>
+                    <div class="item order">
+                        <a href="#" data-modal-link="order-form">Записаться</a>
+                    </div>
+
+                    <div class="only-mobile">
+                        <a href="#" class="mobile-menu-link" data-mobile-menu-toggle>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="only-mobile">
+            <div class="mobile-menu">
+                <a href="#" class="close" data-mobile-menu-toggle>
+                    <span class="i i-close"></span>
+                </a>
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                <div class="menu">
+                    <ul>
+                        <li class="has-dropdown">
+                            <a href="#">Направления</a>
+                            <ul class="services">
+                                <li><a href="#">Коррекция фигуры</a></li>
+                                <li><a href="#">Диетология</a></li>
+                                <li><a href="#">Эндокринология</a></li>
+                                <li><a href="#">Остеопатия</a></li>
+                                <li><a href="#">Гинекология</a></li>
+                                <li><a href="#">Подиатрия</a></li>
+                                <li><a href="#">Психология</a></li>
+                                <li><a href="#">Подология</a></li>
+                                <li><a href="#">Инфузионная терапия</a></li>
+                                <li><a href="#">Мануальная терапия</a></li>
+                                <li><a href="#">Лечебные и диагностические программы</a></li>
+                                <li><a href="#">Физиотерапия</a></li>
+                                <li><a href="#">ЛФК и реабилитация</a></li>
+                                <li><a href="#">Реабилитация после оперативного лечения</a></li>
+                                <li><a href="#">Генетика</a></li>
+                                <li><a href="#">Медицинский массаж</a></li>
+                                <li><a href="#">Косметология</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Специалисты</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">О нас</a>
+                            <ul>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <div class="item phone-address">
+                        <div class="item-inner">
+                            <div class="phone">
+                                <a href="tel:+74952111122">+7 (495) 211-11-22</a>
+                            </div>
+                            <div class="address">Москва, ул. Тверская, д. 1</div>
+                        </div>
+                    </div>
+                    <div class="item work-time">
+                        <div class="name">Время работы:</div>
+                        <div class="value">Пн-Вс: 10:00 - 22:00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-block">
+            <div class="container inner">
+                <div class="menu">
+                    <ul>
+                        <li class="has-dropdown">
+                            <a href="#">Направления</a>
+                            <ul class="services">
+                                <li><a href="#">Коррекция фигуры</a></li>
+                                <li><a href="#">Диетология</a></li>
+                                <li><a href="#">Эндокринология</a></li>
+                                <li><a href="#">Остеопатия</a></li>
+                                <li><a href="#">Гинекология</a></li>
+                                <li><a href="#">Подиатрия</a></li>
+                                <li><a href="#">Психология</a></li>
+                                <li><a href="#">Подология</a></li>
+                                <li><a href="#">Инфузионная терапия</a></li>
+                                <li><a href="#">Мануальная терапия</a></li>
+                                <li><a href="#">Лечебные и диагностические программы</a></li>
+                                <li><a href="#">Физиотерапия</a></li>
+                                <li><a href="#">ЛФК и реабилитация</a></li>
+                                <li><a href="#">Реабилитация после оперативного лечения</a></li>
+                                <li><a href="#">Генетика</a></li>
+                                <li><a href="#">Медицинский массаж</a></li>
+                                <li><a href="#">Косметология</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Специалисты</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">О нас</a>
+                            <ul>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page-header-block">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Направления</a></li>
+                </ul>
+                <h1>Косметология</h1>
+            </div>
+        </div>
+
+
+        <div id="page" class="container">
+
+            <div id="sidebar">
+                <div class="sidebar-menu-block block">
+                    <div class="title">Направления</div>
+                    <ul>
+                        <li class="has-dropdown">
+                            <a href="#">Коррекция фигуры</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Бразильская попка</a></li>
+                                <li><a href="#">Лаеннек-терапия</a></li>
+                                <li><a href="#">Липолитическая терапия</a></li>
+                                <li><a href="#">Антицеллюлитный массаж</a></li>
+                                <li><a href="#">STS-lipotec</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Диетология</a></li>
+                        <li><a href="#">Эндокринология</a></li>
+                        <li><a href="#">Остеопатия</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Гинекология</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Профилактика</a></li>
+                                <li><a href="#">Диагностика</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Подиатрия</a></li>
+                        <li><a href="#">Психология</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Подология</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Медицинский педикюр</a></li>
+                                <li><a href="#">Протезирование ногтей</a></li>
+                                <li><a href="#">Ортониксия</a></li>
+                                <li><a href="#">Изготовление индивидуальных стелек</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Инфузионная терапия</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Мануальная терапия</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Кинезиология</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#">Лечебные и диагностические программы</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Диагностика заболеваний печени</a></li>
+                                <li><a href="#">Диагностика для мужчин</a></li>
+                                <li><a href="#">Диагностика для женщин</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Физиотерапия</a></li>
+                        <li><a href="#">ЛФК и реабилитация</a></li>
+                        <li><a href="#">Реабилитация после оперативного лечения</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Генетика</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Vitality Genetics Красота</a></li>
+                                <li><a href="#">Vitality Genetics Здоровье</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Медицинский массаж</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Косметология</a>
+                            <div class="toggle"></div>
+                            <ul>
+                                <li><a href="#">Контурная пластика с использованием канюль</a></li>
+                                <li><a href="#">Контурная пластика с использованием косметических нитей</a></li>
+                                <li><a href="#">Контурная пластика с использованием филеров</a></li>
+                                <li><a href="#">Плазмолифтинг лица</a></li>
+                                <li><a href="#">Мезотерапия</a></li>
+                                <li><a href="#">Биоревитализация лица</a></li>
+                                <li><a href="#">Ботулинотерапия</a></li>
+                                <li><a href="#">Лимфодренажный массаж</a></li>
+                                <li><a href="#">Удаление папиллом</a></li>
+                                <li><a href="#">Удаление новообразований</a></li>
+                                <li><a href="#">Шлифовка, вакуум, электро-фотопорация</a></li>
+                                <li><a href="#">Пилинг</a></li>
+                                <li><a href="#">Буккальный массаж</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-sale-block block">
+                    <div class="title">Акции</div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/sale.jpg" alt="">
+                        </div>
+                        <div class="name">Цикл занятий "Управление эмоциями"</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content">
+                <div class="tabs">
+                    <a href="#" data-scroll-to=".service-page .text">
+                        <span class="i i-info"></span>
+                        <span>Описание</span>
+                    </a>
+                    <a href="#" data-scroll-to=".reviews-block-2">
+                        <span class="i i-message"></span>
+                        <span>Отзывы</span>
+                    </a>
+                    <a href="#" data-scroll-to=".doctors-block">
+                        <span class="i i-doctor2"></span>
+                        <span>Врачи</span>
+                    </a>
+                </div>
+
+
+                <div class="service-page">
+                    <div class="text html-text">
+                        <p>
+                            <img src="./img/service.jpg" alt="">
+                        </p>
+                        <p>
+                            Врач-косметолог – специалист с обширными знаниями и навыками в области сохранения красоты, здоровья кожи и молодости. Каждая женщина хотя бы раз в жизни
+                            обращалась к профессионалу, чтобы получить комплексный уход. Сегодня косметология – главное направление в бьюти-индустрии. В этой сфере постоянно
+                            разрабатывают новые техники и методики, чтобы восстановить естественные способности кожи к регенерации, устранить признаки старения или удалить излишки жира
+                            без операции.
+                        </p>
+                        <h2>Какие услуги предлагает врач-косметолог?</h2>
+                        <p>
+                            Косметологический уход – это комплекс процедур различной направленности. В зависимости от нужд клиента специалист выбирает подходящую программу. Омоложение
+                            и оздоровление кожи лица включает:
+                        </p>
+                        <ul>
+                            <li>чистку -&nbsp;глубокие аппаратные или традиционные поверхностные методики удаления загрязнений. Здесь используют специальные составы, кремы и сыворотки.
+                                Уход включает первичную обработку лица, очищение и питание. Такие процедуры возвращают сияние, здоровый цвет, улучшают обменные процессы в поверхностных
+                                клетках кожи;
+                            </li>
+                            <li>пилинг – глубокие, срединные и поверхностные техники. Направлены на удаление ороговевшего слоя клеток и обновление эпидермиса. Глубокие процедуры
+                                применяются для омоложения и формирования нового, более эластичного слоя кожи;
+                            </li>
+                            <li>избавление от целлюлита и лишнего жира. В этот комплекс входят многочисленные методики воздействия на жировые отложения с помощью современных аппаратных
+                                технологий;
+                            </li>
+                            <li>омоложение – радиоволновые и прочие методы борьбы с морщинами, старением кожи, дряблостью, потерей тонуса. Специальные техники запускают естественные
+                                процессы восстановления и клеточного обмена. За счет такой стимуляции достигается стойкий эффект;
+                            </li>
+                            <li>инъекционная терапия – используется как для омоложения, так и для поддержания необходимого уровня влаги в коже. Залогом успешности процедур является
+                                качество используемых препаратов и опыт врача-косметолога.
+                            </li>
+                        </ul>
+                        <h2>Для всех процедур есть общие противопоказания. К ним относятся:</h2>
+                        <ul>
+                            <li>общие воспалительные заболевания с повышением температуры тела;</li>
+                            <li>системные расстройства, связанные с нарушением свертываемости крови;</li>
+                            <li>инфекции, в частности герпес, в период обострения;</li>
+                            <li>беременность и период лактации;</li>
+                            <li>возраст до 18 лет;</li>
+                            <li>раны и порезы в местах обработки.</li>
+                        </ul>
+                        <p>Более детально о показаниях и противопоказаниях можно узнать на консультации у специалиста.</p>
+                        <h2>Преимущества профессионального косметологического ухода</h2>
+                        <ul>
+                            <li>Глубокое воздействие на слои кожи с активацией клеточного метаболизма.</li>
+                            <li>Заметный результат после нескольких сеансов, в некоторых случаях после одного.</li>
+                            <li>Безопасность для клиента.</li>
+                            <li>Гарантированное получение результата, которого невозможно добиться в домашних условиях.</li>
+                        </ul>
+                        <p>
+                            Особенное место сегодня выделяют аппаратной косметологии. Именно такие процедуры оказывают длительный эффект и минимально травмируют кожу.
+                        </p>
+                        <h2>Врач-косметолог в Vitality</h2>
+                        <p>
+                            В центре работают специалисты с богатым опытом. Сотрудники постоянно обучаются инновационным методикам омоложения, очищения и оздоровления, поэтому мы можем
+                            предложить своим клиентам:
+                        </p>
+                        <ul>
+                            <li>индивидуальную разработку программы терапии;</li>
+                            <li>гарантию качества услуг и используемых препаратов;</li>
+                            <li>передовые техники борьбы с различными проблемами кожи, избыточным весом, целлюлитом;</li>
+                            <li>весь комплекс косметологической помощи лицам любого возраста.</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="consult-block block small">
+                    <div class="icon">
+                        <div class="i i-warning"></div>
+                    </div>
+                    <div class="text">Запишитесь на консультацию по телефону <a href="tel:+74952155790">+7 (495) 215-57-90</a>.</div>
+                </div>
+
+
+                <div class="reviews-block-2 block" data-block>
+                    <div class="container">
+                        <div class="block-header">
+                            <div class="block-title no-lines">ОТЗЫВЫ</div>
+                            <div class="carousel-nav">
+                                <a href="#" class="prev"></a>
+                                <a href="#" class="next"></a>
+                            </div>
+                        </div>
+                        <div class="carousel">
+                            <div class="owl-carousel">
+                                <div class="reviews-grid-item">
+                                    <div class="icon"></div>
+                                    <div class="review-sidebar">
+                                        <div class="img">
+                                            <img src="./img/review1.jpg" alt="">
+                                        </div>
+                                        <div class="about">Отзыв о клинике «Клото»</div>
+                                        <div class="stars">
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star-grey"></div>
+                                        </div>
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="text">
+                                            Тема очень интересная и актуальная для меня как для врача. Жизнь полна чёрных полос и я получил знания в виде достаточно простых методов как быстро
+                                            избавляться от отрицательных эмоций. Длительно текущие болевые синдромы, с которыми ко мне приходят пациенты, тоже часто приводят к депрессивным
+                                            расстройствам. Надеюсь, теперь у меня будет больше возможностей помочь им.
+                                        </div>
+                                        <div class="name">Острей И.А.</div>
+                                        <div class="date">03.09.2022 г.</div>
+                                    </div>
+                                </div>
+                                <div class="reviews-grid-item">
+                                    <div class="icon"></div>
+                                    <div class="review-sidebar">
+                                        <div class="img">
+                                            <img src="./img/review2.jpg" alt="">
+                                        </div>
+                                        <div class="about">Отзыв о клинике «Клото»</div>
+                                        <div class="stars">
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star-grey"></div>
+                                        </div>
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="text">
+                                            Тема очень интересная и актуальная для меня как для врача. Жизнь полна чёрных полос и я получил знания в виде достаточно простых методов как быстро
+                                            избавляться от отрицательных эмоций. Длительно текущие болевые синдромы, с которыми ко мне приходят пациенты, тоже часто приводят к депрессивным
+                                            расстройствам. Надеюсь, теперь у меня будет больше возможностей помочь им.
+                                        </div>
+                                        <div class="name">Острей И.А.</div>
+                                        <div class="date">03.09.2022 г.</div>
+                                    </div>
+                                </div>
+                                <div class="reviews-grid-item">
+                                    <div class="icon"></div>
+                                    <div class="review-sidebar">
+                                        <div class="img">
+                                            <img src="./img/review1.jpg" alt="">
+                                        </div>
+                                        <div class="about">Отзыв о клинике «Клото»</div>
+                                        <div class="stars">
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star-grey"></div>
+                                        </div>
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="text">
+                                            Тема очень интересная и актуальная для меня как для врача. Жизнь полна чёрных полос и я получил знания в виде достаточно простых методов как быстро
+                                            избавляться от отрицательных эмоций. Длительно текущие болевые синдромы, с которыми ко мне приходят пациенты, тоже часто приводят к депрессивным
+                                            расстройствам. Надеюсь, теперь у меня будет больше возможностей помочь им.
+                                        </div>
+                                        <div class="name">Острей И.А.</div>
+                                        <div class="date">03.09.2022 г.</div>
+                                    </div>
+                                </div>
+                                <div class="reviews-grid-item">
+                                    <div class="icon"></div>
+                                    <div class="review-sidebar">
+                                        <div class="img">
+                                            <img src="./img/review2.jpg" alt="">
+                                        </div>
+                                        <div class="about">Отзыв о клинике «Клото»</div>
+                                        <div class="stars">
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star-grey"></div>
+                                        </div>
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="text">
+                                            Тема очень интересная и актуальная для меня как для врача. Жизнь полна чёрных полос и я получил знания в виде достаточно простых методов как быстро
+                                            избавляться от отрицательных эмоций. Длительно текущие болевые синдромы, с которыми ко мне приходят пациенты, тоже часто приводят к депрессивным
+                                            расстройствам. Надеюсь, теперь у меня будет больше возможностей помочь им.
+                                        </div>
+                                        <div class="name">Острей И.А.</div>
+                                        <div class="date">03.09.2022 г.</div>
+                                    </div>
+                                </div>
+                                <div class="reviews-grid-item">
+                                    <div class="icon"></div>
+                                    <div class="review-sidebar">
+                                        <div class="img">
+                                            <img src="./img/review1.jpg" alt="">
+                                        </div>
+                                        <div class="about">Отзыв о клинике «Клото»</div>
+                                        <div class="stars">
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star"></div>
+                                            <div class="i i-star-grey"></div>
+                                        </div>
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="text">
+                                            Тема очень интересная и актуальная для меня как для врача. Жизнь полна чёрных полос и я получил знания в виде достаточно простых методов как быстро
+                                            избавляться от отрицательных эмоций. Длительно текущие болевые синдромы, с которыми ко мне приходят пациенты, тоже часто приводят к депрессивным
+                                            расстройствам. Надеюсь, теперь у меня будет больше возможностей помочь им.
+                                        </div>
+                                        <div class="name">Острей И.А.</div>
+                                        <div class="date">03.09.2022 г.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="doctors-block block" data-block>
+                    <div class="container">
+                        <div class="block-header">
+                            <div class="block-title no-lines">ВРАЧИ</div>
+                            <div class="carousel-nav">
+                                <a href="#" class="prev"></a>
+                                <a href="#" class="next"></a>
+                            </div>
+                        </div>
+                        <div class="doctors-grid owl-carousel" data-columns="3">
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Шаропина <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Расулова <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Русин <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Хворостанцева <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Шаропина2 <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Расулова2 <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Русин2 <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                            <div class="doctors-grid-item">
+                                <div class="img">
+                                    <img src="./img/doctor.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <a href="#">
+                                        Хворостанцева2 <br>
+                                        Анна Викторовна
+                                    </a>
+                                </div>
+                                <div class="work">Венеролог</div>
+                                <div class="experience">Стаж: 15 лет</div>
+                                <div class="stars">
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star"></div>
+                                    <div class="i i-star-grey"></div>
+                                </div>
+                                <div class="rating">Рейтинг: 5</div>
+                                <div class="reviews">
+                                    <a href="#">Отзывов: 1</a>
+                                </div>
+                                <div class="order">
+                                    <a href="#"
+                                       class="button"
+                                       data-modal-link="order-form"
+                                    >Записаться на прием</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="order-block block">
+                    <div class="inner container">
+                        <div class="block-title no-lines">Записаться на прием</div>
+                        <div class="modal-icon">
+                            <div class="lines"></div>
+                            <div class="i i-order"></div>
+                            <div class="lines"></div>
+                        </div>
+                        <form action="#" class="order-form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Ваш телефон">
+                            </div>
+                            <div class="form-group item-rules">
+                                Нажимая на кнопку "Записаться", вы подтверждаете согласие с условиями <a href="#" target="_blank">Политики конфиденциальности</a>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit">Записаться</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="contacts-block block" data-block>
+            <div class="content">
+                <div class="map" data-coords='[55.786761, 37.5568507]'></div>
+
+                <div class="container inner">
+                    <div class="info">
+                        <div class="main">
+                            <div class="contacts-box">
+                                <div class="item item-address">
+                                    <div class="name">Адрес:</div>
+                                    <div class="value">м. Тверская ул. Тверская, д. 1</div>
+                                    <a href="#" class="how-reach-toggle">Как добраться?</a>
+                                </div>
+                                <div class="item item-phone">
+                                    <div class="name">Телефон:</div>
+                                    <div class="phone">
+                                        <a href="tel:+74952111122">+7 (495) 211-11-22</a>
+                                    </div>
+                                </div>
+                                <div class="item item-email">
+                                    <div class="name">E-mail:</div>
+                                    <div class="value">
+                                        <a href="mailto:123@123.ru">123@123.ru</a>
+                                    </div>
+                                </div>
+                                <div class="item item-work-time">
+                                    <div class="name">Время работы:</div>
+                                    <div class="value">Пн-Вс 10:00-22:00</div>
+                                </div>
+                            </div>
+                            <div class="order flex">
+                                <a href="#" class="button" data-modal-link="order-form">Записаться на прием</a>
+                            </div>
+                        </div>
+                        <div class="how-reach">
+                            <div class="contacts-box">
+                                <div class="item item-car">
+                                    <div class="name">На автомобиле</div>
+                                    <div class="value">
+                                        Из центра едем по 1й Тверской-Ямской, в конце эстакады у Белорусского вокзала съезжаем на дублёр Ленинградского проспекта. Через 600 метров
+                                        поворачиваем направо, на ул. Правды. Институт здоровья "Vitality" находится на правой стороне улицы через 100 метров после поворота.
+                                    </div>
+                                </div>
+                                <div class="item item-bus">
+                                    <div class="name">Общественным транспортом</div>
+                                    <div class="value">
+                                        м. Белорусская (кольцевая). Выход №2 на ул. Грузинский Вал. Идём на эстакаду над ЖД путями. Переходим на дублёр Ленинградского проспекта. Идём
+                                        вдоль до поворота направо на ул. Правды. Институт здоровья "Vitality" находится через 100 метров по правой стороне улицы.
+                                    </div>
+                                    <div class="back">
+                                        <a href="#" class="how-reach-toggle">Назад к контактам</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-block block">
+            <div class="header">
+                <div class="inner container">
+                    <div class="info">
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                        <div class="copyright">
+                            © 2022, ООО "Клото".
+                            Все права защищены.
+                        </div>
+                        <div class="license">
+                            <a href="#">Лицензия № ЛО-77-01-014541 от 23 сентября 2022 года. Прайс-лист</a>. <br>
+                            Вся информация, включая цены, предоставлена для ознакомления и не является публичной офертой (ст.435 ГК РФ, cт. 437 ГК РФ).
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Направления</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Специалисты</a></li>
+                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts">
+                        <div class="items">
+                            <div class="item phone">
+                                <a href="tel:+74952111122">+7 (495) 211-11-22</a>
+                            </div>
+                            <div class="item address">
+                                Москва, ул. Тверская, д. 1
+                            </div>
+                            <div class="item work-time">
+                                <div class="label">Время работы:</div>
+                                <div class="value">Пн-Вс: 10:00 - 22:00</div>
+                            </div>
+                            <div class="item order">
+                                <a href="#" class="button" data-modal-link="order-form">Записаться</a>
+                            </div>
+                            <div class="item social">
+                                <a href="#" class="social-vk"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container inner">
+                    <div class="payment-methods">
+                        <div class="label">Принимаем к оплате</div>
+                        <div class="items">
+                            <div class="item">
+                                <img src="./img/visa.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/ma.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/ae.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/mir.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Реквизиты организации</a></li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                            <li><a href="#">Разработано в Эльмента Групп</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div data-modal="order-form"
+             data-modal-width="650"
+             data-modal-title="Записаться на прием"
+        >
+            <div class="modal-icon">
+                <div class="lines"></div>
+                <div class="i i-order"></div>
+                <div class="lines"></div>
+            </div>
+
+            <form action="#" class="order-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Ваше имя">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="phone" placeholder="Ваш телефон">
+                </div>
+                <div class="form-group item-rules">
+                    Нажимая на кнопку "Записаться", вы подтверждаете согласие с условиями <a href="#" target="_blank">Политики конфиденциальности</a>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Записаться</button>
+                </div>
+            </form>
+        </div>
+
+
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=b45157fe-9225-448d-a63f-2ba1bcfaf1ac&lang=ru_RU" type="text/javascript"></script>
+
+        <script src="./js/all.js"></script>
+    </body>
+</html>
