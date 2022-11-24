@@ -15,7 +15,10 @@
             .owlCarousel({
                 items: 1,
                 nav: false,
-                dots: true
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true
             });
 
 
