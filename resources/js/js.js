@@ -264,10 +264,43 @@
 
         $('[data-mobile-menu-toggle]')
             .once()
-            .click(function(e){
+            .click(function (e) {
                 e.preventDefault();
 
                 $('body').toggleClass('mobile-menu-visible');
+            });
+
+
+        $('.sidebar-sale-block .owl-carousel')
+            .once()
+            .owlCarousel({
+                items: 1,
+                margin: 20,
+                nav: false,
+                dots: false,
+                loop: true
+            });
+
+
+        $('.sidebar-menu-block [data-toggle]')
+            .once()
+            .click(function () {
+                $(this)
+                    .closest('[data-block]')
+                    .find('[data-inner]')
+                    .stop()
+                    .slideToggle('fast');
+            });
+
+
+        $('.reviews-grid-item .text [data-toggle]')
+            .once()
+            .click(function (e) {
+                e.preventDefault();
+
+                $(this)
+                    .closest('.reviews-grid-item')
+                    .toggleClass('open');
             });
 
     }
