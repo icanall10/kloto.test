@@ -249,7 +249,7 @@
                     {},
                     {
                         iconLayout: 'default#image',
-                        iconImageHref: '/img/placemark.png?v2',
+                        iconImageHref: $this.attr('data-placemark'),
                         iconImageSize: [60, 60],
                         iconImageOffset: [-30, -60]
                     }
