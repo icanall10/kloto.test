@@ -33,7 +33,13 @@
                         0: {
                             items: 1,
                         },
-                        770: {
+                        540: {
+                            items: 2
+                        },
+                        800: {
+                            items: 3,
+                        },
+                        1000: {
                             items: parseInt(columns)
                         }
                     },
