@@ -32,21 +32,51 @@
                     responsive: {
                         0: {
                             items: 1,
+                            slideBy: 1
                         },
                         540: {
-                            items: 2
+                            items: 2,
+                            slideBy: 2
                         },
                         800: {
                             items: 3,
+                            slideBy: 3
                         },
                         1000: {
-                            items: parseInt(columns)
+                            items: parseInt(columns),
+                            slideBy: parseInt(columns)
                         }
                     },
                     margin: 30,
                     nav: false,
-                    dots: false,
-                    loop: true
+                    dots: false
+                });
+            });
+
+
+        $('.carousel-nav')
+            .once(function(){
+                let $this = $(this);
+                let block = $this.closest('[data-block]');
+                let carousel = block.find('.owl-carousel');
+
+                carousel.on('changed.owl.carousel', function(event) {
+                    let size = event.page.size;
+                    let current = event.item.index + size;
+                    let count = event.item.count;
+                    let maxPage = Math.ceil(count / size);
+                    let page =  Math.ceil(current / size);
+
+                    $this.removeClass('no-prev');
+                    $this.removeClass('no-next');
+
+                    if (page === 1) {
+                        $this.addClass('no-prev');
+                    }
+
+                    if (page === maxPage) {
+                        $this.addClass('no-next');
+                    }
                 });
             });
 
@@ -60,8 +90,6 @@
                 let block = $this.closest('[data-block]');
                 let carousel = block.find('.owl-carousel');
 
-                console.log(carousel);
-
                 $this.hasClass('next') ? carousel.trigger('next.owl.carousel', [300]) : carousel.trigger('prev.owl.carousel', [300]);
             });
 
@@ -72,15 +100,16 @@
                 responsive: {
                     0: {
                         items: 1,
+                        slideBy: 1
                     },
                     770: {
-                        items: 4
+                        items: 4,
+                        slideBy: 4
                     }
                 },
                 margin: 30,
                 nav: false,
                 dots: false,
-                loop: true,
                 stagePadding: 10
             });
 
@@ -90,7 +119,6 @@
             .owlCarousel({
                 nav: false,
                 dots: false,
-                loop: true,
                 responsive: {
                     0: {
                         items: 1,
@@ -111,7 +139,6 @@
                 items: 1,
                 nav: false,
                 dots: false,
-                loop: true,
                 stagePadding: 20,
                 margin: 40
             });
@@ -287,8 +314,7 @@
                 items: 1,
                 margin: 20,
                 nav: false,
-                dots: false,
-                loop: true
+                dots: false
             });
 
 

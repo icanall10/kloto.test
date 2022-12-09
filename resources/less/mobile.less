@@ -115,7 +115,24 @@
                     margin-right: 20px;
 
                     &.phone-address {
-                        display: none;
+                        display: block;
+
+                        &:before {
+                            display: none;
+                        }
+
+                        .phone {
+                            margin: 0;
+
+                            a {
+                                font-size: 18px;
+                                color: #666;
+                            }
+                        }
+
+                        .address {
+                            display: none;
+                        }
                     }
 
                     &.work-time {
@@ -127,10 +144,7 @@
                     }
 
                     &.order {
-                        a {
-                            padding: 8px 15px;
-                            font-size: 14px;
-                        }
+                        display: none;
                     }
                 }
 
@@ -299,6 +313,14 @@
 
             .phone {
                 font-size: 22px;
+            }
+
+            .order {
+                a {
+                    height: 40px;
+                    box-sizing: border-box;
+                    max-width: 460px;
+                }
             }
         }
     }
@@ -779,10 +801,6 @@
             grid-template-columns: minmax(0, 1fr);
             gap: 20px;
 
-            .img {
-                height: auto;
-            }
-
             .info {
                 gap: 20px;
 
@@ -817,7 +835,6 @@
 
 
     .news-grid {
-        grid-template-columns: minmax(0, 1fr) !important;
         gap: 20px;
     }
 
@@ -945,3 +962,22 @@
 
 }
 
+
+
+@media screen and (max-width: 1000px) {
+    .news-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .news-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .news-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    }
+}
