@@ -5,6 +5,7 @@
     "/resources/css/fonts.css": "/resources/css/fonts.css",
     "/resources/css/variables.css": "/resources/css/variables.css",
     "/resources/css/reset.css": "/resources/css/reset.css",
+    "/resources/css/review.css": "/resources/css/review.css",
     "/public/img/about.jpg": "/public/img/about.jpg",
     "/public/img/ae.png": "/public/img/ae.png",
     "/public/img/article.jpg": "/public/img/article.jpg",
@@ -29,5 +30,7 @@
     "/public/img/slide3.jpg": "/public/img/slide3.jpg",
     "/public/img/visa.png": "/public/img/visa.png",
     "/public/css/all.css": "/public/css/all.css",
-    "/public/js/all.js": "/public/js/all.js"
+    "/public/js/all.js": "/public/js/all.js",
+    "/public/review/css/all.css": "/public/review/css/all.css",
+    "/public/review/js/all.js": "/public/review/js/all.js"
 }

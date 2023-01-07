@@ -12,7 +12,8 @@ mix
     .less('resources/less/fonts.less', 'resources/css/')
     .less('resources/less/icons.less', 'resources/css/')
     .less('resources/less/style.less', 'resources/css/')
-    .less('resources/less/mobile.less', 'resources/css/');
+    .less('resources/less/mobile.less', 'resources/css/')
+    .less('resources/less/review.less', 'resources/css/');
 
 mix.styles([
     'resources/css/reset.css',
@@ -42,3 +43,11 @@ mix.scripts([
     'resources/js/js.js',
 ], 'public/js/all.js');
 
+
+mix.styles([
+    'resources/css/review.css'
+], 'public/review/css/all.css');
+
+mix.scripts([
+    'resources/js/review.js',
+], 'public/review/js/all.js');
